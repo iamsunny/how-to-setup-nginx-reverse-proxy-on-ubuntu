@@ -76,7 +76,7 @@
 ## Setup reverse-proxy on '/docs' path:
 ----------------------------------------------------------------------------------
 ✅💡 sub-folder hosting works for public projects only, not for private projects.
- - Update the active nginx configuration - server block  as follow. update the helloworld.document360.io as the desired target documentation url.
+ - Update the active nginx configuration > server block  as follow. update the helloworld.document360.io as the desired target documentation url.
 
  		location /docs {
                 proxy_pass https://<helloworld.document360.io>/docs; 
