@@ -2,7 +2,7 @@
 ---
 ## TLDR; Install nginx server on Ubuntu:
 > 
-> yes Y | sudo apt install nginx; yes Y | sudo ufw allow 'Nginx HTTP'; yes Y | yes Y | sudo ufw enable; yes Y | sudo ufw status; yes Y | sudo systemctl restart nginx; curl http://$(curl ipinfo.io/ip);
+> yes Y | sudo apt update; yes Y | sudo apt install nginx; yes Y | sudo ufw allow 'Nginx HTTP'; yes Y | yes Y | sudo ufw enable; yes Y | sudo ufw status; yes Y | sudo systemctl restart nginx; curl http://$(curl ipinfo.io/ip);
 ---
 
 ### Steps:
